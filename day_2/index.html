@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeflex Coding Challenge Day 2 Task</title>
+</head>
+<body>
+    <h1>Welcome to Day 2 of my codeflex coding challenge!</h1>
+    <p>This challenge is to help me understand other html elements I did not cover in my Day 1</p>
+    <p>First is an address tag used below</p>
+    <address>
+        202, Brigadier Ademulegun Road,<br>
+        Ondo, <br>Ondo State. <br>10-11-2024
+    </address>
+    <p>Another cool element I can also use is the datalist element that defines a list of autocomplete options when using a text <code>input</code> as demonstrated below </p>
+
+    <p><code>div</code> is an element in html that is used to group other elements together. It is however a block element! I will use a div to group the next elements</p>
+
+    <div>
+        <label for="countries">African Countries</label>
+        <input list="countries" id="countries" placeholder="Type a country name">
+
+        <datalist id="countries">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ethiopia">Ethiopia</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Seychelles">Seychelles</option>
+        </datalist>
+
+    </div>
+
+    <p>An <code>img</code> tag enables developers to insert images to their app
+    an <code>img</code> tag can grab an image locally from our file system or choose an image from an online repository and render it in our page as shown below</p>
+    <img src="https://placehold.co/600x400" alt="A dummy image from placehold.co">
+    <span>A span tag is used to define a generic inline container of content, that does not carry any semantic value. And becaise it is an inline element, it will share a line with the <code>img</code> tag since it is also an inline element</span>
+
+    <h3>All documentation are called from <a href="https://htmlreference.io">HTML REFERENCE Official website</a>
+    </h3>
+
+    <h2>This is the last line I added and it was added because I used the w3c validator which pointed me to include countries as ID for element that references the label for attribute!</h2>
+
+    &copy;2024 Codeflex 30 days bootcamp!
+</body>
+</html>
