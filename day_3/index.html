@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CodeFlex Day 3 Coding Challenge - Form</title>
+	</head>
+	<body>
+		<h3>In this project, <code>Form</code> will be explored</h3>
+
+        <h2>Personal Data Collection Form</h2>
+		<form action="" method="post">
+			
+			<div>
+				<div>
+                    <label for="firstname">First Name</label>
+                </div>
+				<input type="text" name="firstname" id="firstname" placeholder="Enter your first name as it will appear in your credentials" required/>
+			</div>
+			<div>
+				<div>
+                    <label for="lastname">Last Name</label>
+                </div>
+				<input type="text" name="lastname" id="lastname" placeholder="Enter your Surname as it will appear in your credentials" required/>
+			</div>
+			<div>
+				<div>
+                    <label for="dob">Date of Birth</label> 
+                </div>
+				<input type="date" name="dob" id="dob" required />
+			</div>
+			<div>
+				<div>
+                    <label for="male"> Male </label>
+                </div>
+				<input type="radio" name="sex" id="male" value="Male" />
+
+				<label for="female">Female</label> <br>
+
+				<input type="radio" name="sex" id="female" value="Female" />
+
+				<label for="prefer_not_say">Prefer not to say</label> <br>
+
+				<input type="radio" name="sex" id="prefer_not_say" value="Neutral" />
+			</div>
+			<div>
+				<div>
+                    <label for="education"> Highest level of education </label>
+                </div>
+                <select name="education" id="education">
+                    <option value="Basic 5">Primary School Leaving Certificate</option>
+                    <option value="SSCE" selected>Senior School Leaving Certificate</option>
+                    <option value="ND">National Diploma</option>
+                    <option value="HND">Higher National Diploma</option>
+                    <option value="BSc">Bachelor's Degree</option>
+                    <option value="MSc">Post Graduate Degree</option>
+                    <option value="Unskilled_certification">Accredited Unskilled Certification</option>
+                </select>
+				
+			</div>
+            <div>
+                <div>
+                    <label for="essay">Why should we employ you?</label>
+                </div>
+                <textarea name="essay" id="essay" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+		</form>
+
+        <p><i>I learnt that this form can be better if styled appropriately.</i></p>
+	</body>
+</html>
